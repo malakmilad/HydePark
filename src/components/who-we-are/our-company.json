@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_who_we_are_our_companies",
+  "info": {
+    "displayName": "our_company",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "youtube_url": {
+      "type": "text"
+    },
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

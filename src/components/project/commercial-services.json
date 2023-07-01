@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_project_commercial_services",
+  "info": {
+    "displayName": "Commercial_Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Services": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.services"
+    },
+    "Show_In_Website": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

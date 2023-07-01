@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_phase_phase_buildings",
+  "info": {
+    "displayName": "Building_Types",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Building_Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Img_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Building_Details": {
+      "displayName": "phase_info",
+      "type": "component",
+      "repeatable": true,
+      "component": "phase.phase-info"
+    },
+    "Button_Text1": {
+      "type": "string"
+    },
+    "Button_Text2": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Pdf": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

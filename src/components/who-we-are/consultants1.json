@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_who_we_are_consultants1s",
+  "info": {
+    "displayName": "Consultants",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

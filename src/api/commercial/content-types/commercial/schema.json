@@ -1,0 +1,163 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commercials",
+  "info": {
+    "singularName": "commercial",
+    "pluralName": "commercials",
+    "displayName": "Commercial_Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Banner": {
+      "displayName": "Banner",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.banner"
+    },
+    "About_Project": {
+      "displayName": "About_Project",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.about-project"
+    },
+    "Master_Plan": {
+      "displayName": "Master_Plan",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.master-plan"
+    },
+    "Signature_Restaurant": {
+      "displayName": "Signature_Restaurant",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.signature-restaurant"
+    },
+    "Food_Court": {
+      "displayName": "Food_Court",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.food-court"
+    },
+    "Facilities": {
+      "displayName": "Facilities",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.facilities"
+    },
+    "Project_Name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "project_tabs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project-tab.project-tab"
+    },
+    "Home_Card": {
+      "displayName": "Home_Card",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.home-card"
+    },
+    "Construction_Updates": {
+      "displayName": "Construction_Updates",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commercial.construction-updates"
+    },
+    "form_image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "form_image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

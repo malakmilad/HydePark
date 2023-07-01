@@ -1,0 +1,114 @@
+{
+  "collectionName": "components_phase_master_plan_cards",
+  "info": {
+    "displayName": "Master_Plan_Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Phase_Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Icon_Text": {
+      "type": "string"
+    },
+    "Button_Text1": {
+      "type": "string"
+    },
+    "Pdf": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "Button_Text2": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Img_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Thumbnails_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Thumbnails_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "X_Position_Desktop": {
+      "type": "float"
+    },
+    "Y_Position_Desktop": {
+      "type": "float"
+    },
+    "X_Position_Mobile": {
+      "type": "float"
+    },
+    "Y_Position_Mobile": {
+      "type": "float"
+    },
+    "X_Position_Map_Desktop": {
+      "type": "float"
+    },
+    "Y_Position_Map_Desktop": {
+      "type": "float"
+    },
+    "X_Position_Map_Mobile": {
+      "type": "float"
+    },
+    "Y_Position_Map_Mobile": {
+      "type": "float"
+    }
+  }
+}

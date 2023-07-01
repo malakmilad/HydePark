@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_business_main_sliders",
+  "info": {
+    "displayName": "Main_Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Img_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Sub_Slider_Img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Video_Url": {
+      "type": "text"
+    }
+  }
+}

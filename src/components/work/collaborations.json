@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_work_collaborations",
+  "info": {
+    "displayName": "Collaborations"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Our_Collaborations": {
+      "displayName": "Our_Collaborations",
+      "type": "component",
+      "repeatable": true,
+      "component": "work.our-collaborations"
+    }
+  }
+}

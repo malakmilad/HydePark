@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_project_our_facilities",
+  "info": {
+    "displayName": "our_Facilities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Facilitie_Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Img_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

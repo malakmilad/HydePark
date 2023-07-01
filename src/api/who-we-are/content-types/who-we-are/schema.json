@@ -1,0 +1,96 @@
+{
+  "kind": "singleType",
+  "collectionName": "who_we_ares",
+  "info": {
+    "singularName": "who-we-are",
+    "pluralName": "who-we-ares",
+    "displayName": "who_we_are",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "our_story": {
+      "displayName": "our_story",
+      "type": "component",
+      "repeatable": false,
+      "component": "who-we-are.our-story",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "our_promise": {
+      "displayName": "our_promise",
+      "type": "component",
+      "repeatable": false,
+      "component": "who-we-are.our-promise",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "our_people": {
+      "displayName": "our_people",
+      "type": "component",
+      "repeatable": false,
+      "component": "who-we-are.our-people",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "our_partners": {
+      "displayName": "our_partners",
+      "type": "component",
+      "repeatable": false,
+      "component": "who-we-are.our-partners",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "our_company": {
+      "displayName": "our_company",
+      "type": "component",
+      "repeatable": false,
+      "component": "who-we-are.our-company",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "SEO": {
+      "displayName": "SEO",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "who-we-are.seo"
+    }
+  }
+}

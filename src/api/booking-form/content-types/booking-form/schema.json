@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_forms",
+  "info": {
+    "singularName": "booking-form",
+    "pluralName": "booking-forms",
+    "displayName": "booking form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "text"
+    },
+    "last_name": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "project_name": {
+      "type": "text"
+    }
+  }
+}

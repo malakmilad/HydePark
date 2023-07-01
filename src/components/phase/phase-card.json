@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_phase_phase_cards",
+  "info": {
+    "displayName": "Phase_Card"
+  },
+  "options": {},
+  "attributes": {
+    "Img_Mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Img_Desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Phase_Name": {
+      "type": "string"
+    },
+    "Phase_Info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "phase.phase-info"
+    },
+    "Button_Text1": {
+      "type": "string"
+    },
+    "Button_Text2": {
+      "type": "string"
+    },
+    "Button_Slug1": {
+      "type": "string"
+    },
+    "Button_Slug2": {
+      "type": "string"
+    }
+  }
+}

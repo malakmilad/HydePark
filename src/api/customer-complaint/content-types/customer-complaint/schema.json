@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customer_complaints",
+  "info": {
+    "singularName": "customer-complaint",
+    "pluralName": "customer-complaints",
+    "displayName": "Customer_Complaint",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "Email": {
+      "pluginOptions": {},
+      "type": "email"
+    },
+    "Message": {
+      "pluginOptions": {},
+      "type": "richtext"
+    },
+    "Phone": {
+      "pluginOptions": {},
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_commercial_home_cards",
+  "info": {
+    "displayName": "Home_Card"
+  },
+  "options": {},
+  "attributes": {
+    "Img_Desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Img_Mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Button_Slug1": {
+      "type": "string"
+    },
+    "Button_Slug2": {
+      "type": "string"
+    },
+    "Button_Text1": {
+      "type": "string"
+    },
+    "Button_Text2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

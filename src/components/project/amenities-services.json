@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_amenities_services",
+  "info": {
+    "displayName": "Amenities_Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Amenitie_Service": {
+      "displayName": "Amenitie_Service",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.amenitie-service"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_project_project_overviews",
+  "info": {
+    "displayName": "Project_Overview",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Project_Info": {
+      "displayName": "icons",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.icons"
+    }
+  }
+}

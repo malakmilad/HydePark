@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_work_our_testimonials",
+  "info": {
+    "displayName": "Our_Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Personal_Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "text"
+    },
+    "Personal_Img_Mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "kind": "singleType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Works360",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Banner": {
+      "displayName": "Banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Overview": {
+      "displayName": "Overview",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.overview",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Servies_Header": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Finishes": {
+      "displayName": "Finshes",
+      "type": "component",
+      "repeatable": true,
+      "component": "work.finshes",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Commercial_Finishes": {
+      "displayName": "Commercia_Finshes",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.commercia-finshes",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Collaborations": {
+      "displayName": "Collaborations",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.collaborations",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Offers": {
+      "displayName": "Offers",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.offers",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Testimonials": {
+      "displayName": "Testimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.testimonials",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "SEO": {
+      "displayName": "SEO",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "work.seo"
+    }
+  }
+}

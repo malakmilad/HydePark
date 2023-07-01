@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_work_our_finshes",
+  "info": {
+    "displayName": "Our_Finishes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Img_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

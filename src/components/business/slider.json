@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_business_sliders",
+  "info": {
+    "displayName": "Slider"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Img_Desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Img_Mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_tabs",
+  "info": {
+    "singularName": "project-tab",
+    "pluralName": "project-tabs",
+    "displayName": "project_tab",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "business_projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::business.business"
+    },
+    "commercial_projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::commercial.commercial"
+    }
+  }
+}

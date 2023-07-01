@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_work_our_collaborations",
+  "info": {
+    "displayName": "Our_Collaborations"
+  },
+  "options": {},
+  "attributes": {
+    "Img_Desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Img_Mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

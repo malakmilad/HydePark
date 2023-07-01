@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_banner_main_sliders",
+  "info": {
+    "displayName": "main_slider",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
+    }
+  }
+}

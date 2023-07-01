@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_commercial_food_courts",
+  "info": {
+    "displayName": "Food_Court",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "Restaurants": {
+      "displayName": "Restaurants",
+      "type": "component",
+      "repeatable": true,
+      "component": "commercial.restaurants"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

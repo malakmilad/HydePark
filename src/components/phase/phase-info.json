@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_phase_phase_infos",
+  "info": {
+    "displayName": "Phase_Info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Text": {
+      "type": "string"
+    }
+  }
+}

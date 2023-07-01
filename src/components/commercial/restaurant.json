@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_commercial_food_restaurants",
+  "info": {
+    "displayName": "Food Restaurant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Text": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

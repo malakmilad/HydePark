@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_work_commercia_finshes",
+  "info": {
+    "displayName": "Commercial_Finishes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Our_Commercial": {
+      "displayName": "Our_Commercia",
+      "type": "component",
+      "repeatable": true,
+      "component": "work.our-commercia"
+    }
+  }
+}

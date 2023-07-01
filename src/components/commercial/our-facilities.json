@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_commercial_our_facilities",
+  "info": {
+    "displayName": "Our_Facilities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Facilitie_Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Img_Desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Img_Mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

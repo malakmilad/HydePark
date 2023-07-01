@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_who_we_are_our_promises",
+  "info": {
+    "displayName": "our_promise",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "promise": {
+      "displayName": "promise",
+      "type": "component",
+      "repeatable": true,
+      "component": "who-we-are.promise"
+    }
+  }
+}

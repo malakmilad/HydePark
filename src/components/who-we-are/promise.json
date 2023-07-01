@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_who_we_are_promises",
+  "info": {
+    "displayName": "promise"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

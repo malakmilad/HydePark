@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.main-slider"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_who_we_are_our_stories",
+  "info": {
+    "displayName": "our_story"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description2": {
+      "type": "richtext"
+    },
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

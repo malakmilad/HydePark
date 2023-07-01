@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_business_facilities_and_services",
+  "info": {
+    "displayName": "FacilitiesAndServices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Amenitie_Service": {
+      "displayName": "Amenitie_Service",
+      "type": "component",
+      "repeatable": true,
+      "component": "business.amenitie-service"
+    }
+  }
+}

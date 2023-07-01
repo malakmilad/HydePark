@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_services_our_services",
+  "info": {
+    "displayName": "Our_services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "services": {
+      "displayName": "profiles",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.profiles"
+    }
+  }
+}

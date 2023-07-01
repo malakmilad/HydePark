@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_us_help_yous",
+  "info": {
+    "displayName": "help_you",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "help_you_info": {
+      "displayName": "icon",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.icon"
+    }
+  }
+}

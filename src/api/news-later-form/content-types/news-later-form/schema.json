@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_later_forms",
+  "info": {
+    "singularName": "news-later-form",
+    "pluralName": "news-later-forms",
+    "displayName": "news_later_form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    }
+  }
+}

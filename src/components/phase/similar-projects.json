@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_phase_similar_projects",
+  "info": {
+    "displayName": "Similar_projects"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "Phases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::phase.phase"
+    }
+  }
+}

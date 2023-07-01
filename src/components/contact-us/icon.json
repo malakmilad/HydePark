@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_us_icons",
+  "info": {
+    "displayName": "help_you_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

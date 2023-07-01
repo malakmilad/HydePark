@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_our_portfolios",
+  "info": {
+    "displayName": "Our_Portfolio",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Project_Tabs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project-tab.project-tab"
+    }
+  }
+}

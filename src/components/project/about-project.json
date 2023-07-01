@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_project_about_projects",
+  "info": {
+    "displayName": "About_Project",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Project_Usps": {
+      "displayName": "Project_Usps",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-usps"
+    },
+    "Show_In_Website": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

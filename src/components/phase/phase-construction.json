@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_phase_phase_constructions",
+  "info": {
+    "displayName": "phase_Construction",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Main_Slider": {
+      "displayName": "main_slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "phase.main-slider"
+    },
+    "Header": {
+      "type": "string"
+    },
+    "Header2": {
+      "type": "string"
+    }
+  }
+}

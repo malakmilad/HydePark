@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_who_we_are_our_partners",
+  "info": {
+    "displayName": "our_partners",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "Consultants": {
+      "displayName": "Consultants1",
+      "type": "component",
+      "repeatable": true,
+      "component": "who-we-are.consultants1"
+    },
+    "Contractors": {
+      "displayName": "Consultants2",
+      "type": "component",
+      "repeatable": true,
+      "component": "who-we-are.consultants2"
+    },
+    "Consultants_header": {
+      "type": "string"
+    },
+    "contractors_header": {
+      "type": "string"
+    }
+  }
+}

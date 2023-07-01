@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_project_project_cards",
+  "info": {
+    "displayName": "Project_Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Img_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Project_Name": {
+      "type": "string"
+    },
+    "Project_Info": {
+      "displayName": "Project_Info",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-info"
+    },
+    "Button_Text1": {
+      "type": "string"
+    },
+    "Button_Text2": {
+      "type": "string"
+    },
+    "Button_Slug1": {
+      "type": "string"
+    },
+    "Button_Slug2": {
+      "type": "string"
+    }
+  }
+}

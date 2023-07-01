@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_banner_building_detials",
+  "info": {
+    "displayName": "Building_Detials"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Text": {
+      "type": "string"
+    }
+  }
+}

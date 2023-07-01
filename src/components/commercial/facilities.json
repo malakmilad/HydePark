@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_commercial_facilities",
+  "info": {
+    "displayName": "Facilities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Img_Desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Img_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Our_Facilities": {
+      "displayName": "Our_Facilities",
+      "type": "component",
+      "repeatable": true,
+      "component": "commercial.our-facilities"
+    }
+  }
+}

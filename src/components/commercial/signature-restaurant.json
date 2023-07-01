@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_commercial_signature_restaurants",
+  "info": {
+    "displayName": "Signature_Restaurant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "Food_Restaurant": {
+      "displayName": "Restaurant",
+      "type": "component",
+      "repeatable": true,
+      "component": "commercial.restaurant"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_phase_about_phases",
+  "info": {
+    "displayName": "about_phase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Phase_Usps": {
+      "displayName": "phases",
+      "type": "component",
+      "repeatable": true,
+      "component": "phase.phases"
+    }
+  }
+}

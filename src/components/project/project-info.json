@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_project_infos",
+  "info": {
+    "displayName": "Project_Info"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Text": {
+      "type": "string"
+    }
+  }
+}

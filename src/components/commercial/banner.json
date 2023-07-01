@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_commercial_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Slider": {
+      "displayName": "Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "commercial.slider"
+    }
+  }
+}

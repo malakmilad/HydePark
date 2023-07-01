@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_article_articles",
+  "info": {
+    "displayName": "Articles"
+  },
+  "options": {},
+  "attributes": {
+    "tap": {
+      "type": "string"
+    },
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "minute_read": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

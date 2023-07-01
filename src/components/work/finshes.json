@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_work_finshes",
+  "info": {
+    "displayName": "Finishes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tap_Name": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "string"
+    },
+    "Our_Finishes": {
+      "displayName": "Our_Finshes",
+      "type": "component",
+      "repeatable": true,
+      "component": "work.our-finshes"
+    }
+  }
+}

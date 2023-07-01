@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_business_amenitie_services",
+  "info": {
+    "displayName": "Amenitie_Service"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Text": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

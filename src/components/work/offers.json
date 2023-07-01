@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_work_offers",
+  "info": {
+    "displayName": "Offers"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Our_Offers": {
+      "displayName": "Our_Offers",
+      "type": "component",
+      "repeatable": true,
+      "component": "work.our-offers"
+    }
+  }
+}

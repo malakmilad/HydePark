@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_updates",
+  "info": {
+    "displayName": "News_Heighlights",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Button_Text": {
+      "type": "string"
+    },
+    "Headline2": {
+      "type": "string"
+    },
+    "Articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "Button_Slug": {
+      "type": "string"
+    }
+  }
+}

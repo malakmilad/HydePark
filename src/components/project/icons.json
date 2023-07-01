@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_icons",
+  "info": {
+    "displayName": "project_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Text": {
+      "type": "string"
+    }
+  }
+}

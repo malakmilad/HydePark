@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_business_banners",
+  "info": {
+    "displayName": "Banner"
+  },
+  "options": {},
+  "attributes": {
+    "Slider": {
+      "displayName": "Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "business.slider"
+    }
+  }
+}
